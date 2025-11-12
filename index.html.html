@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A personal web page by Alex, showcasing web development and graphic design projects, skills, and contact information.">
+    <link rel="stylesheet" href="style.css">
+
+    <title>My Web Page</title>
+</head>
+<body>
+
+    <section>
+        <header>
+            <h1>Welcome to My Web Page</h1>
+            <nav role="navigation">
+                <button id="nav-toggle" aria-label="Open navigation">&#9776;</button>
+                <ul id="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about me">About Me</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+     <hr>
+
+    </section>
+
+     <main>
+
+    <section id="about me">
+        <h2>About Me</h2>
+        <p>Hi im Alex!</p>
+        <p>I am a a hopeful web developer and graphic designer with a passion for creating beautiful and functional websites.</p>
+        <p>In my free time, I enjoy music, dancing, and anime.</p>
+        <p>Feel free to explore my website and learn more about me and my work!</p>
+
+        <img src="images/Picture-Of-Me.png" alt="Alex staring at camera" width="300">
+        <p style="font-size: 0.9em; color: #000000; margin-top: 5px;">
+    (This is an AI-generated image of me created with ChatGPT, since I'm not comfortable showing my real face.)
+</p>
+
+            <hr>    
+
+    </section>
+
+    <section>
+        <h2>My Projects/Tasks</h2>
+        <ul>
+            <li>Project/Task 1: Fake Battle net website base setup.</li>
+            <li>Project/Task 2: Designing page layouts.</li>
+            <li>Project/Task 3: Using graphic design to make websites look nice.</li>
+        </ul>
+        <a href="../fakeBattleNet.html" target="_blank">View My Project Website</a>
+    </section>
+
+    <section>
+
+        <hr>
+
+        <h2>My Skills</h2>
+        <ul>
+            <li>💻 Coding</li>
+            <li>🖌️ Designing Layouts</li>
+            <li>🎨 Using CSS paired with graphic design for nice looking websites</li>
+        </ul>
+
+        <hr>
+
+    </section>
+
+        <hr>
+
+        <article id="contact">
+        <h2>Contact Me</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+            <input type="submit" value="Submit">
+        <form> 
+        </article>
+
+    </main>
+
+
+
+    <footer>
+        <p>&copy; 2025 My Web Page</p>
+    </footer>
+
+   <script src="script.js"></script>
+
+</body>
+</html>
