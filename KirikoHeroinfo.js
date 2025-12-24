@@ -1,6 +1,7 @@
 //KirikoHeroinfo .js file
 
   function showAbilities() {
-    var abilities = document.getElementById("Kiriko-Abilities");
+    var abilities = document.getElementById("kirikoAbilities");
     abilities.style.display = "block";
   }
+
