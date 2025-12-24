@@ -114,13 +114,13 @@ ul {
 	font-size: 32px;
 }
 
-#Kiriko-Abilities {
+#kirikoAbilities {
 	
 	display: flex;
 	
 }
 
-#Kiriko-Abilities img {
+#kirikoAbilities img {
 	width: 100%;
 	height:auto;
 	object-fit: cover;
@@ -138,12 +138,12 @@ ul {
 }
 
 @media only screen and (max-width: 768px) {
-	#Kiriko-Abilities {
+	#kirikoAbilities {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
 	}
-	#Kiriko-Abilities div{
+	#kirikoAbilities div{
 
 	flex: 1 0 50%;
 	
@@ -151,14 +151,15 @@ ul {
 }
 
 @media only screen and (max-width: 500px) {
-	#Kiriko-Abilities {
+	#kirikoAbilities {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
 	}
-	#Kiriko-Abilities div{
+	#kirikoAbilities div{
 
 	flex: 1 0 100%;
 	
 	}
 }
+
