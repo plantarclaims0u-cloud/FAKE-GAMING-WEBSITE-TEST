@@ -117,7 +117,15 @@ ul {
 #kirikoAbilities {
 	
 	display: flex;
-	
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 20px;
+	margin-top: 20px;
+}
+
+#kirikoAbilities div {
+	width: 20%;
+	text-align: center;
 }
 
 #kirikoAbilities img {
@@ -127,14 +135,11 @@ ul {
 	border-radius: 8px;
 }
 
-#pop-up {
-	display: block;
-	position: absolute;
-	padding: 20px;
-	background-color: yellow;
-	left: 50%;
-	top: 50%;
-	visibility: visible;
+#showButton {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-weight: bold;
 }
 
 @media only screen and (max-width: 768px) {
@@ -162,4 +167,5 @@ ul {
 	
 	}
 }
+
 
