@@ -7,12 +7,13 @@
 
     if (abilities.style.display === "none" || abilities.style.display === "") {
       abilities.style.display = "flex";
-      button.innerHTML = "Hide Kiriko’s Abilities";
+      button.innerHTML = "my farts stink";
     } else {
       abilities.style.display = "none";
       button.innerHTML = "Show Kiriko’s Abilities";
     }
   }
+
 
 
 
