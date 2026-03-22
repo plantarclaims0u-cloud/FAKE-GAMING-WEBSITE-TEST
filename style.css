@@ -95,6 +95,24 @@ footer {
     margin-right: 10px;
 }
 
+#contact {
+	width: 100%;
+}
+
+#contact form {
+	width: 100%;
+}
+
+#contact form input{
+	width: 100%;
+		max-width: 300px;
+}
+
+#contact form textarea{
+	width: 100%;
+	max-width: 300px;
+}
+
 @media (max-width: 768px) {
     #nav-toggle {
         display: block;
