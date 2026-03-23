@@ -123,6 +123,7 @@ h2 {
 	width: 100%;
 	height: 180px;
 	object-fit: cover;
+	object-position: 50% 20%;
 }
 
 /* SPECIAL GRID HEIGHT FIXES REMOVED (cleaner look) */
