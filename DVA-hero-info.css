@@ -114,24 +114,24 @@ ul {
   color: black;
 }
 
-#Mercy-Abilities {
+#dva-Abilities {
 	
 	display: flex;
 	flex-wrap: wrap;
 }
 
-#Mercy-Abilities div{
+#dva-Abilities div{
 
 	flex: 1 0 0%;
 }
 
-#Mercy-Abilities img {
+#dva-Abilities img {
 	width: 100%;
 	height:auto;
 	object-fit: contain;
 }
 
-#Mercy-Abilities div p{
+#dva-Abilities div p{
 	text-align: center;
 	padding: 8px;
 }
@@ -147,7 +147,7 @@ ul {
 }
 
 @media only screen and (max-width: 768px) {
-	#Mercy-Abilities {
+	#dva-Abilities {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
@@ -160,12 +160,12 @@ ul {
 }
 
 @media only screen and (max-width: 500px) {
-	#Mercy-Abilities {
+	#dva-Abilities {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
 	}
-	#Mercy-Abilities div{
+	#dva-Abilities div{
 
 	flex: 1 0 100%;
 	
