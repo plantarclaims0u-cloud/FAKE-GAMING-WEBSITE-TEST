@@ -83,13 +83,13 @@ h6 {
 	text-align: center;
 	text-decoration: underline;
 }
-.blank-title {
+.JunkerQueen-title {
 	text-align: center;
 	text-decoration: underline;
 	font-size: 50px;
 }
 
-.blank-title {
+.JunkerQueen-title {
 	text-align: center;
 	text-decoration: underline;
 	font-size: 50px;
@@ -114,24 +114,24 @@ ul {
   color: black;
 }
 
-#blank-Abilities {
+#JunkerQueen-Abilities {
 	
 	display: flex;
 	flex-wrap: wrap;
 }
 
-#blank-Abilities div{
+#JunkerQueen-Abilities div{
 
 	flex: 1 0 0%;
 }
 
-#blank-Abilities img {
+#JunkerQueen-Abilities img {
 	width: 100%;
 	height:auto;
 	object-fit: contain;
 }
 
-#blank-Abilities div p{
+#JunkerQueen-Abilities div p{
 	text-align: center;
 	padding: 8px;
 }
@@ -147,12 +147,12 @@ ul {
 }
 
 @media only screen and (max-width: 768px) {
-	#blank-Abilities {
+	#JunkerQueen-Abilities {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
 	}
-	#blank-Abilities div{
+	#JunkerQueen-Abilities div{
 
 	flex: 1 0 50%;
 	
@@ -160,12 +160,12 @@ ul {
 }
 
 @media only screen and (max-width: 500px) {
-	#blank-Abilities {
+	#JunkerQueen-Abilities {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
 	}
-	#blank-Abilities div{
+	#JunkerQueen-Abilities div{
 
 	flex: 1 0 100%;
 	
