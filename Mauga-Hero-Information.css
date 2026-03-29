@@ -1,0 +1,173 @@
+/*css file */
+
+html {
+	
+	 background-color:#ffffb3;
+	 
+}
+h1 {
+	font-size: 32px;
+	font-weight: bold;
+	line-height: 1.1em;
+	color: Black;
+	text-align: center;
+	text-decoration: underline;
+}
+body {
+
+	 background-color:#ffffb3;
+}
+
+#main-image img {
+	
+	width: 80%;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+	
+h1 {
+	font-size: 32px;
+	font-weight: bold;
+	line-height: 1.1em;
+	color: Black;
+	text-align: center;
+	text-decoration: underline;
+}
+
+h2 {
+	font-size: 32px;
+	font-weight: bold;
+	line-height: 1.1em;
+	color: Black;
+	text-align: center;
+	text-decoration: underline;
+}
+
+h3 {
+	font-size: 32px;
+	font-weight: bold;
+	line-height: 1.1em;
+	color: Black;
+	text-align: center;
+	text-decoration: underline;
+}
+
+h4 {
+	font-size: 32px;
+	font-weight: bold;
+	line-height: 1.1em;
+	color: Black;
+	text-align: center;
+	text-decoration: underline;
+}
+
+
+h5 {
+	font-size: 32px;
+	font-weight: bold;
+	line-height: 1.1em;
+	color: Black;
+	text-align: center;
+	text-decoration: underline;
+}
+
+h6 {
+	font-size: 32px;
+	font-weight: bold;
+	line-height: 1.1em;
+	color: Black;
+	text-align: center;
+	text-decoration: underline;
+}
+.Mauga-title {
+	text-align: center;
+	text-decoration: underline;
+	font-size: 50px;
+}
+
+.Mauga-title {
+	text-align: center;
+	text-decoration: underline;
+	font-size: 50px;
+}
+
+.Basic-Info p{
+	text-align: center;
+	font-size: 20px;
+}
+
+.Basic-Info h2 {
+	text-align: center;
+	font-size: 50px;
+	text-decoration: underline;
+}
+
+hr {
+	color: black;
+}
+
+ul {
+  color: black;
+}
+
+#Mauga-Abilities {
+	
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#Mauga-Abilities div{
+
+	flex: 1 0 0%;
+}
+
+#Mauga-Abilities img {
+	width: 100%;
+	height:auto;
+	object-fit: contain;
+}
+
+#Mauga-Abilities div p{
+	text-align: center;
+	padding: 8px;
+}
+
+#pop-up {
+	display: block;
+	position: absolute;
+	padding: 20px;
+	background-color: yellow;
+	left: 50%;
+	top: 50%;
+	visibility: visible;
+}
+
+@media only screen and (max-width: 768px) {
+	#Mauga-Abilities {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	}
+	#Mauga-Abilities div{
+
+	flex: 1 0 50%;
+	
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	#Mauga-Abilities {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	}
+	#Mauga-Abilities div{
+
+	flex: 1 0 100%;
+	
+	}
+}
