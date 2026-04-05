@@ -83,13 +83,13 @@ h6 {
 	text-align: center;
 	text-decoration: underline;
 }
-.Blank-title {
+.Freja-title {
 	text-align: center;
 	text-decoration: underline;
 	font-size: 50px;
 }
 
-.Blank-title {
+.Freja-title {
 	text-align: center;
 	text-decoration: underline;
 	font-size: 50px;
@@ -114,24 +114,24 @@ ul {
   color: black;
 }
 
-#Blank-Abilities {
+#Freja-Abilities {
 	
 	display: flex;
 	flex-wrap: wrap;
 }
 
-#Blank-Abilities div{
+#Freja-Abilities div{
 
 	flex: 1 0 0%;
 }
 
-#Blank-Abilities img {
+#Freja-Abilities img {
 	width: 100%;
 	height:auto;
 	object-fit: contain;
 }
 
-#Blank-Abilities div p{
+#Freja-Abilities div p{
 	text-align: center;
 	padding: 8px;
 }
@@ -147,12 +147,12 @@ ul {
 }
 
 @media only screen and (max-width: 768px) {
-	#Blank-Abilities {
+	#Freja-Abilities {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
 	}
-	#Blank-Abilities div{
+	#Freja-Abilities div{
 
 	flex: 1 0 50%;
 	
@@ -160,12 +160,12 @@ ul {
 }
 
 @media only screen and (max-width: 500px) {
-	#Blank-Abilities {
+	#Freja-Abilities {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
 	}
-	#Blank-Abilities div{
+	#Freja-Abilities div{
 
 	flex: 1 0 100%;
 	
