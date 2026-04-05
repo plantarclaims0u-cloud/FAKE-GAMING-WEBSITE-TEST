@@ -83,13 +83,13 @@ h6 {
 	text-align: center;
 	text-decoration: underline;
 }
-.Blank-title {
+.Soujorn-title {
 	text-align: center;
 	text-decoration: underline;
 	font-size: 50px;
 }
 
-.Blank-title {
+.Soujorn-title {
 	text-align: center;
 	text-decoration: underline;
 	font-size: 50px;
@@ -114,24 +114,24 @@ ul {
   color: black;
 }
 
-#Blank-Abilities {
+#Soujorn-Abilities {
 	
 	display: flex;
 	flex-wrap: wrap;
 }
 
-#Blank-Abilities div{
+#Soujorn-Abilities div{
 
 	flex: 1 0 0%;
 }
 
-#Blank-Abilities img {
+#Soujorn-Abilities img {
 	width: 100%;
 	height:auto;
 	object-fit: contain;
 }
 
-#Blank-Abilities div p{
+#Soujorn-Abilities div p{
 	text-align: center;
 	padding: 8px;
 }
@@ -147,12 +147,12 @@ ul {
 }
 
 @media only screen and (max-width: 768px) {
-	#Blank-Abilities {
+	#Soujorn-Abilities {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
 	}
-	#Blank-Abilities div{
+	#Soujorn-Abilities div{
 
 	flex: 1 0 50%;
 	
@@ -160,12 +160,12 @@ ul {
 }
 
 @media only screen and (max-width: 500px) {
-	#Blank-Abilities {
+	#Soujorn-Abilities {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
 	}
-	#Blank-Abilities div{
+	#Soujorn-Abilities div{
 
 	flex: 1 0 100%;
 	
