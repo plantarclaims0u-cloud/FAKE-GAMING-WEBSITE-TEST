@@ -114,24 +114,24 @@ ul {
   color: black;
 }
 
-#Pharah-Abilities {
+#pharah-abilities {
 	
 	display: flex;
 	flex-wrap: wrap;
 }
 
-#Pharah-Abilities div{
+#pharah-abilities div{
 
 	flex: 1 0 0%;
 }
 
-#Pharah-Abilities img {
+#pharah-abilities img {
 	width: 100%;
 	height:auto;
 	object-fit: contain;
 }
 
-#Pharah-Abilities div p{
+#pharah-abilities div p{
 	text-align: center;
 	padding: 8px;
 }
@@ -147,12 +147,12 @@ ul {
 }
 
 @media only screen and (max-width: 768px) {
-	#Pharah-Abilities {
+	#pharah-abilities {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
 	}
-	#Pharah-Abilities div{
+	#pharah-abilities div{
 
 	flex: 1 0 50%;
 	
@@ -160,12 +160,12 @@ ul {
 }
 
 @media only screen and (max-width: 500px) {
-	#Pharah-Abilities {
+	#pharah-abilities {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
 	}
-	#Pharah-Abilities div{
+	#pharah-abilities div{
 
 	flex: 1 0 100%;
 	
