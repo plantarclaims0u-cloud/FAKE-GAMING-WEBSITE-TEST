@@ -83,13 +83,13 @@ h6 {
 	text-align: center;
 	text-decoration: underline;
 }
-.Hanzo-title {
+.hanzo-title {
 	text-align: center;
 	text-decoration: underline;
 	font-size: 50px;
 }
 
-.Hanzo-title {
+.hanzo-title {
 	text-align: center;
 	text-decoration: underline;
 	font-size: 50px;
@@ -114,24 +114,24 @@ ul {
   color: black;
 }
 
-#Hanzo-Abilities {
+#hanzo-abilities {
 	
 	display: flex;
 	flex-wrap: wrap;
 }
 
-#Hanzo-Abilities div{
+#hanzo-abilities div{
 
 	flex: 1 0 0%;
 }
 
-#Hanzo-Abilities img {
+#hanzo-abilities img {
 	width: 100%;
 	height:auto;
 	object-fit: contain;
 }
 
-#Hanzo-Abilities div p{
+#hanzo-abilities div p{
 	text-align: center;
 	padding: 8px;
 }
@@ -147,12 +147,12 @@ ul {
 }
 
 @media only screen and (max-width: 768px) {
-	#Hanzo-Abilities {
+	#hanzo-abilities {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
 	}
-	#Hanzo-Abilities div{
+	#hanzo-abilities div{
 
 	flex: 1 0 50%;
 	
@@ -160,12 +160,12 @@ ul {
 }
 
 @media only screen and (max-width: 500px) {
-	#Hanzo-Abilities {
+	#hanzo-abilities {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
 	}
-	#Hanzo-Abilities div{
+	#hanzo-abilities div{
 
 	flex: 1 0 100%;
 	
