@@ -55,16 +55,12 @@ h2 {
 	text-decoration: underline;
 }
 
-.Backstory {
-	text-align: center;
-	text-decoration: underline;
-	font-size: 50px;
+hr {
+	color: black;
 }
 
-.Backstory h2 {
-	text-align: center;
-	font-size: 50px;
-	text-decoration: underline;
+ul {
+  color: black;
 }
 
 #Ana-Abilities {
