@@ -38,6 +38,44 @@ h2 {
 	text-decoration: underline;
 }
 
+h3 {
+	font-size: 32px;
+	font-weight: bold;
+	line-height: 1.1em;
+	color:white;
+	text-align: center;
+}
+
+h4 {
+	font-size: 32px;
+	font-weight: bold;
+	line-height: 1.1em;
+	color: white;
+	text-align: center;
+	font-size: 50px;
+	text-decoration: underline;
+}
+
+h5 {
+	font-size: 32px;
+	font-weight: bold;
+	line-height: 1.1em;
+	color: white;
+	text-align: center;
+	font-size: 50px;
+	text-decoration: underline;
+}
+
+h6 {
+	font-size: 32px;
+	font-weight: bold;
+	line-height: 1.1em;
+	color: white;
+	text-align: center;
+	font-size: 50px;
+	text-decoration: underline;
+}
+
 .Ana-title {
 	text-align: center;
 	text-decoration: underline;
