@@ -75,6 +75,16 @@ h5 {
 	text-decoration: underline;
 }
 
+h6 {
+	font-size: 32px;
+	font-weight: bold;
+	line-height: 1.1em;
+	color: white;
+	text-align: center;
+	font-size: 50px;
+	text-decoration: underline;
+}
+
 .Moria-title {
 	text-align: center;
 	text-decoration: underline;
