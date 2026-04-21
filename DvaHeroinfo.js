@@ -1,4 +1,4 @@
-//LucioHeroinfo .js file
+//DvaHeroinfo .js file
 
 
   function toggleAbilities() {
