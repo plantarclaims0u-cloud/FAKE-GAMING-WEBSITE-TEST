@@ -10,6 +10,7 @@
 	<title>Baptiste's Hero Guide!</title>
 </head>
 <body>
+	<div id="main-content">
 
 <h1>Baptiste</h1>
 		<div id="main-image">
@@ -28,7 +29,11 @@
 		
 		<h2 class="Baptiste-title">Baptiste Abilities</h2>
 
-		<div id="Baptiste-Abilities">
+<!-- Button to Show Abilities -->
+<button id="showButton" onclick="toggleAbilities()">Show Baptiste’s Abilities</button>
+
+<!-- Hidden abilities section -->
+<div id="Baptiste-Abilities" style="display: none;">
 		
 			<div>
 				<h2>Biotic Launcher</h2>
@@ -86,11 +91,15 @@
 		</ul>
 		<hr>
 		
-
-
-</body>
+<script src="BaptisteHeroinfo.js"></script>
+		
+</div>
+	
 <footer>
 
 </footer>
+
+</body>
+
 
 </html>
