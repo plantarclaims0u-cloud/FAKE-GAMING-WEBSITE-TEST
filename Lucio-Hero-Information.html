@@ -10,6 +10,7 @@
 	<title>Lucio's Hero Guide!</title>
 </head>
 <body>
+	<div id="main-content">
 
 <h1>Lucio</h1>
 		<div id="main-image">
@@ -28,7 +29,11 @@
 		
 		<h2 class="Lucio-title">Lucio Abilities</h2>
 
-		<div id="Lucio-Abilities">
+<!-- Button to Show Abilities -->
+<button id="showButton" onclick="toggleAbilities()">Show Lucio’s Abilities</button>
+
+<!-- Hidden abilities section -->
+<div id="Lucio-Abilities" style="display: none;">
 		
 			<div>
 				<h2>Wall Ride</h2>
@@ -89,10 +94,16 @@
 
 		<hr>
 		
-</body>
+<script src="LucioHeroinfo.js"></script>
+		
+</div>
+	
 <footer>
 
-</footer>
+</footer>	
+	
+</body>
+
 
 </html>
 
