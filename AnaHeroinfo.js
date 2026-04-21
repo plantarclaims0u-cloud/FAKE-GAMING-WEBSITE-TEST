@@ -1,0 +1,15 @@
+//AnaHeroinfo .js file
+
+
+  function toggleAbilities() {
+    var abilities = document.getElementById("Ana-Abilities");
+    var button = document.getElementById("showButton");
+
+    if (abilities.style.display === "none" || abilities.style.display === "") {
+      abilities.style.display = "flex";
+      button.innerHTML = "Hide Ana’s Abilities";
+    } else {
+      abilities.style.display = "none";
+      button.innerHTML = "Show Ana’s Abilities";
+    }
+  }
