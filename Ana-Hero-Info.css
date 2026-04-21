@@ -8,7 +8,14 @@ html {
 
 body {
 
-	 background-color:	#8cb1dd;
+	background-color:	#8cb1dd;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+#main-content {
+	max-width: 1200px;
 }
 
 #main-image img {
@@ -123,7 +130,12 @@ ul {
 	padding: 8px;
 }
 
-
+#showButton {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-weight: bold;
+}
 
 @media only screen and (max-width: 768px) {
 	#Ana-Abilities {
