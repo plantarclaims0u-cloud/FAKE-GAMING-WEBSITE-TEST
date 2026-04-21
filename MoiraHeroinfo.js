@@ -2,7 +2,7 @@
 
 
   function toggleAbilities() {
-    var abilities = document.getElementById("Moira-Abilities");
+    var abilities = document.getElementById("Moria-Abilities");
     var button = document.getElementById("showButton");
 
     if (abilities.style.display === "none" || abilities.style.display === "") {
