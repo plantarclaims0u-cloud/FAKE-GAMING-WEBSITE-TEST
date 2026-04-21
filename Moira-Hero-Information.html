@@ -10,6 +10,7 @@
 	<title>Moria's Hero Guide!</title>
 </head>
 <body>
+	<div id="main-content">
 
 <h1>Moria</h1>
 		<div id="main-image">
@@ -28,7 +29,12 @@
 		
 		<h2 class="Moria-title">Moria Abilities</h2>
 
-		<div id="Moria-Abilities">
+<!-- Button to Show Abilities -->
+<button id="showButton" onclick="toggleAbilities()">Show Moria’s Abilities</button>
+
+<!-- Hidden abilities section -->
+<div id="Moria-Abilities" style="display: none;">
+		
 		
 			<div>
 				<h2>Biotic Grasp</h2>
@@ -80,11 +86,15 @@
 		
 		<hr>
 		
-
-
-</body>
+<script src="MoiraHeroinfo.js"></script>
+		
+</div>
+		
 <footer>
 
 </footer>
+		
+</body>
+
 
 </html>
