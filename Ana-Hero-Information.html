@@ -10,6 +10,8 @@
 	<title>Ana's Hero Guide!</title>
 </head>
 <body>
+	<div id="main-content">
+		
 <h1>Ana</h1>
 		<div id="main-image">
 			<img src="https://plantarclaims0u-cloud.github.io/FAKE-GAMING-WEBSITE-TEST/ana-overwatch-2.jpg">
@@ -26,7 +28,11 @@
 		
 		<h2 class="Ana-title">Ana Abilities</h2>
 
-		<div id="Ana-Abilities">
+<!-- Button to Show Abilities -->
+<button id="showButton" onclick="toggleAbilities()">Show Ana’s Abilities</button>
+
+<!-- Hidden abilities section -->
+<div id="Ana-Abilities" style="display: none;">
 		
 			<div>
 				<h2>Biotic Rifle</h2>
@@ -77,11 +83,16 @@
 		</ul>
 	
 		<hr>
-		
 
-</body>
+<script src="AnaHeroinfo.js"></script>
+		
+</div>
+	
 <footer>
 
 </footer>
+	
+</body>
+
 
 </html>
