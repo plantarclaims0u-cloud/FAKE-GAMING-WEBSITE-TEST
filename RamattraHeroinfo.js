@@ -1,4 +1,4 @@
-//DvaHeroinfo .js file
+//RamattraHeroinfo .js file
 
 
   function toggleAbilities() {
