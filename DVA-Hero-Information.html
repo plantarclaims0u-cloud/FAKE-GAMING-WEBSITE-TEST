@@ -10,6 +10,8 @@
 	<title>DVA's Hero Guide!</title>
 </head>
 <body>
+	<div id="main-content">
+	
 <h1>DVA</h1>
 		<div id="main-image">
 			<img src="https://plantarclaims0u-cloud.github.io/FAKE-GAMING-WEBSITE-TEST/dva.jpg">
@@ -26,7 +28,11 @@
 		
 		<h2 class="dva-title">Dva Abilities</h2>
 
-		<div id="dva-Abilities">
+<!-- Button to Show Abilities -->
+<button id="showButton" onclick="toggleAbilities()">Show Dva’s Abilities</button>
+
+<!-- Hidden abilities section -->
+<div id="dva-Abilities" style="display: none;">
 		
 			<div>
 				<h2>Fusion Cannons</h2>
@@ -90,11 +96,15 @@
 			<li>Ongoing Omnic Crisis: She participates in repeated defensive operations against evolving omnic forces. These missions require constant adaptation, showcasing her growth as both a pilot and strategist.</li>
 			<li>Rise as a Global Esports Champion: Before her military service, D.Va achieved international fame as a top-tier professional gamer, winning major competitions and building a massive fanbase—this reputation later amplified her public image as a hero.</li>
 		</ul>
-	
 
-</body>
+<script src="DvaHeroinfo.js"></script>		
+		
+</div>
+	
 <footer>
 
 </footer>
+	
+</body>
 
 </html>
