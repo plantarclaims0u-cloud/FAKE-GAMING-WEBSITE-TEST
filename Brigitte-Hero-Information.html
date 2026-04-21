@@ -10,6 +10,7 @@
 	<title>Brigitte's Hero Guide!</title>
 </head>
 <body>
+	<div id="main-content">
 
 <h1>Brigitte</h1>
 		<div id="main-image">
@@ -28,7 +29,11 @@
 		
 		<h2 class="Brigitte-title">Brigitte Abilities</h2>
 
-		<div id="Brigitte-Abilities">
+<!-- Button to Show Abilities -->
+<button id="showButton" onclick="toggleAbilities()">Show Brigitte’s Abilities</button>
+
+<!-- Hidden abilities section -->
+<div id="Brigitte-Abilities" style="display: none;">
 		
 			<div>
 				<h2>Rocket Flail </h2>
@@ -89,13 +94,18 @@
 		</ul>
 	
 		<hr>
+
+
+<script src="BrigitteHeroinfo.js"></script>
 		
-
-
-</body>
+</div>
+	
 <footer>
 
 </footer>
+		
+</body>
+
 
 </html>
 
