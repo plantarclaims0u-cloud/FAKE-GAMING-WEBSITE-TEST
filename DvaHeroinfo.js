@@ -1,0 +1,15 @@
+//LucioHeroinfo .js file
+
+
+  function toggleAbilities() {
+    var abilities = document.getElementById("dva-Abilities");
+    var button = document.getElementById("showButton");
+
+    if (abilities.style.display === "none" || abilities.style.display === "") {
+      abilities.style.display = "flex";
+      button.innerHTML = "Hide D.VA’s Abilities";
+    } else {
+      abilities.style.display = "none";
+      button.innerHTML = "Show D.VA’s Abilities";
+    }
+  }
