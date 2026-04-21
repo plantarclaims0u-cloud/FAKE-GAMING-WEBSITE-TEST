@@ -2,7 +2,7 @@
 
 
   function toggleAbilities() {
-    var abilities = document.getElementById("junoAbilities");
+    var abilities = document.getElementById("Juno-Abilities");
     var button = document.getElementById("showButton");
 
     if (abilities.style.display === "none" || abilities.style.display === "") {
