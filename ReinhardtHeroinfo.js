@@ -1,4 +1,4 @@
-//DvaHeroinfo .js file
+//ReinhardtHeroinfo .js file
 
 
   function toggleAbilities() {
