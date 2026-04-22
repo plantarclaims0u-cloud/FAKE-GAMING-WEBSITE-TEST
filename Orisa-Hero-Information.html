@@ -10,6 +10,8 @@
 	<title>Orisa's Hero Guide!</title>
 </head>
 <body>
+	<div id="main-content">
+	
 <h1>Orisa</h1>
 		<div id="main-image">
 			<img src="https://plantarclaims0u-cloud.github.io/FAKE-GAMING-WEBSITE-TEST/Orisa-Big-Pic.jpeg">
@@ -26,7 +28,11 @@
 		
 		<h2 class="Orisa-title">Orisa Abilities</h2>
 
-		<div id="Orisa-Abilities">
+<!-- Button to Show Abilities -->
+<button id="showButton" onclick="toggleAbilities()">Show Orisa’s Abilities</button>
+
+<!-- Hidden abilities section -->
+<div id="Orisa-Abilities" style="display: none;">
 		
 			<div>
 				<h2>Augmented Fusion Driver</h2>
@@ -85,10 +91,14 @@
 
 		</ul>
 
-
-</body>
+<script src="OrisaHeroinfo.js"></script>
+	
+</div>
+	
 <footer>
 
 </footer>
+</body>
+
 
 </html>
