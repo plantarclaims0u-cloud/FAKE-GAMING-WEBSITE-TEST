@@ -1,4 +1,4 @@
-//KirikoHeroinfo .js file
+//JunoHeroinfo .js file
 
 
   function toggleAbilities() {
