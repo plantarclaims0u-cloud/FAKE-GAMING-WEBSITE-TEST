@@ -10,6 +10,9 @@
 	<title>Mauga's Hero Guide!</title>
 </head>
 <body>
+	<div id="main-content">
+
+	
 <h1>Mauga</h1>
 		<div id="main-image">
 			<img src="https://plantarclaims0u-cloud.github.io/FAKE-GAMING-WEBSITE-TEST/Mauga-Big-Pic.jpeg">
@@ -26,7 +29,11 @@
 		
 		<h2 class="Mauga-title">Mauga Abilities</h2>
 
-		<div id="Mauga-Abilities">
+<!-- Button to Show Abilities -->
+<button id="showButton" onclick="toggleAbilities()">Show Mauga’s Abilities</button>
+
+<!-- Hidden abilities section -->
+<div id="Mauga-Abilities" style="display: none;">
 		
 			<div>
 				<h2>Gunny</h2>
@@ -84,11 +91,14 @@
 				<li>Acts as a major heavy assault force in Talon operations.</li>
 		</ul>
 
+<script src="MaugaHeroinfo.js"></script>		
 
-
-</body>
+</div>
+	
 <footer>
 
 </footer>
+		
+</body>
 
 </html>
