@@ -10,6 +10,8 @@
 	<title>Tracer's Hero Guide!</title>
 </head>
 <body>
+	<div id="main-content">
+	
 <h1>Tracer</h1>
 		<div id="main-image">
 			<img src="https://plantarclaims0u-cloud.github.io/FAKE-GAMING-WEBSITE-TEST/Tracer-Big-Pic.jpg">
@@ -26,7 +28,11 @@
 		
 		<h2 class="Tracer-title">Tracer Abilities</h2>
 
-		<div id="Tracer-Abilities">
+	<!-- Button to Show Abilities -->
+<button id="showButton" onclick="toggleAbilities()">Show Tracer’s Abilities</button>
+
+<!-- Hidden abilities section -->
+<div id="Tracer-Abilities" style="display: none;">
 		
 			<div>
 				<h2>Pulse Pistols</h2>
@@ -80,10 +86,15 @@
 				<li>Answers the recall in Overwatch 2, continuing to fight for global peace.</li>
 		</ul>
 
-
-</body>
+<script src="TracerHeroinfo.js"></script>
+		
+</div>
+	
 <footer>
 
 </footer>
+	
+</body>
+
 
 </html>
