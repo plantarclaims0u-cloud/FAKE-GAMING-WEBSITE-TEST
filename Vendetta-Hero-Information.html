@@ -10,6 +10,8 @@
 	<title>Vendetta's Hero Guide!</title>
 </head>
 <body>
+	<div id="main-content">
+
 <h1>Vendetta</h1>
 		<div id="main-image">
 			<img src="https://plantarclaims0u-cloud.github.io/FAKE-GAMING-WEBSITE-TEST/Blank-Big-Pic.jpg">
@@ -26,7 +28,11 @@
 		
 		<h2 class="Vendetta-title">Vendetta Abilities</h2>
 
-		<div id="Vendetta-Abilities">
+<!-- Button to Show Abilities -->
+<button id="showButton" onclick="toggleAbilities()">Show Vendetta’s Abilities</button>
+
+<!-- Hidden abilities section -->
+<div id="Vendetta-Abilities" style="display: none;">
 		
 			<div>
 				<h2>Palatine Fang</h2>
@@ -100,10 +106,15 @@
 			<li></li>
 		</ul>
 
-
-</body>
+<script src="VendettaHeroinfo.js"></script>
+	
+</div>
+		
 <footer>
 
 </footer>
+		
+</body>
+
 
 </html>
