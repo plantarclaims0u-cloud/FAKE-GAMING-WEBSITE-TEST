@@ -10,6 +10,8 @@
 	<title>Pharah's Hero Guide!</title>
 </head>
 <body>
+	<div id="main-content">
+
 <h1>Pharah</h1>
 		<div id="main-image">
 			<img src="https://plantarclaims0u-cloud.github.io/FAKE-GAMING-WEBSITE-TEST/Pharah-Big-Pic.webp">
@@ -26,7 +28,11 @@
 		
 		<h2 class="pharah-title">Pharah Abilities</h2>
 
-		<div id="pharah-abilities">
+<!-- Button to Show Abilities -->
+<button id="showButton" onclick="toggleAbilities()">Show Pharah’s Abilities</button>
+
+<!-- Hidden abilities section -->
+<div id="pharah-abilities" style="display: none;">
 		
 			<div>
 				<h2>Rocket Launcher</h2>
@@ -81,13 +87,16 @@
 			<li>Plays an active role in global conflicts, fighting to maintain order and justice.</li>
 		</ul>
 	
+<script src="PharahHeroinfo.js"></script>
 
-
-
-</body>
+</div>
+	
 <footer>
 
 </footer>
+	
+</body>
+
 
 </html>
 
