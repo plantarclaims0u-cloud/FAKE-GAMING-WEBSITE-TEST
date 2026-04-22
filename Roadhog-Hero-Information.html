@@ -10,6 +10,8 @@
 	<title>Roadhog's Hero Guide!</title>
 </head>
 <body>
+	<div id="main-content">
+	
 <h1>Roadhog</h1>
 		<div id="main-image">
 			<img src="https://plantarclaims0u-cloud.github.io/FAKE-GAMING-WEBSITE-TEST/Roadhog-Big-Pic.jpg">
@@ -26,7 +28,11 @@
 		
 		<h2 class="Roadhog-title">Roadhog's Abilities</h2>
 
-		<div id="Roadhog-Abilities">
+<!-- Button to Show Abilities -->
+<button id="showButton" onclick="toggleAbilities()">Show Roadhog’s Abilities</button>
+
+<!-- Hidden abilities section -->
+<div id="Roadhog-Abilities" style="display: none;">
 		
 			<div>
 				<h2>Scrap Gun</h2>
@@ -79,11 +85,15 @@
 
 		</ul>
 
-
-
-</body>
+<script src="RoadhogHeroinfo.js"></script>
+		
+</div>
+	
 <footer>
 
 </footer>
+	
+</body>
+
 
 </html>
