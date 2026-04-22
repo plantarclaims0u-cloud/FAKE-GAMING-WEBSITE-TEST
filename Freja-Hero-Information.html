@@ -10,6 +10,8 @@
 	<title>Freja's Hero Guide!</title>
 </head>
 <body>
+	<div id="main-content">
+		
 <h1>Freja</h1>
 		<div id="main-image">
 			<img src="https://plantarclaims0u-cloud.github.io/FAKE-GAMING-WEBSITE-TEST/Freja-Big-Pic.jpg">
@@ -26,7 +28,11 @@
 		
 		<h2 class="Freja-title">Freja Abilities</h2>
 
-		<div id="Freja-Abilities">
+<!-- Button to Show Abilities -->
+<button id="showButton" onclick="toggleAbilities()">Show Freja’s Abilities</button>
+
+<!-- Hidden abilities section -->
+<div id="Freja-Abilities" style="display: none;">
 		
 			<div>
 				<h2>Revdraw Crossbow</h2>
@@ -80,10 +86,15 @@
 
 		</ul>
 
-
-</body>
+<script src="FrejaHeroinfo.js"></script>
+	
+</div>
+	
 <footer>
 
 </footer>
+	
+</body>
+
 
 </html>
