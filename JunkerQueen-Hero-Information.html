@@ -10,6 +10,8 @@
 	<title>JunkerQueen's Hero Guide!</title>
 </head>
 <body>
+	<div id="main-content">
+	
 <h1>Junker Queen</h1>
 		<div id="main-image">
 			<img src="https://plantarclaims0u-cloud.github.io/FAKE-GAMING-WEBSITE-TEST/JunkerQueen-Big-Pic.webp">
@@ -26,7 +28,11 @@
 		
 		<h2 class="JunkerQueen-title">Junker Queen's Abilities</h2>
 
-		<div id="JunkerQueen-Abilities">
+<!-- Button to Show Abilities -->
+<button id="showButton" onclick="toggleAbilities()">Show JunkerQueen’s Abilities</button>
+
+<!-- Hidden abilities section -->
+<div id="JunkerQueen-Abilities" style="display: none;">
 		
 			<div>
 				<h2>Scattergun</h2>
@@ -84,10 +90,15 @@
 		</ul>
 		<hr>
 
-
-</body>
+<script src="JunkerQueenHeroinfo.js"></script>
+		
+</div>
+		
 <footer>
 
 </footer>
+		
+</body>
+
 
 </html>
