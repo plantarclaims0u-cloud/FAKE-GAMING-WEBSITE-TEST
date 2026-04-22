@@ -10,6 +10,8 @@
 	<title>Winston's Hero Guide!</title>
 </head>
 <body>
+	<div id="main-content">
+	
 <h1>Winston</h1>
 		<div id="main-image">
 			<img src="https://plantarclaims0u-cloud.github.io/FAKE-GAMING-WEBSITE-TEST/Winston-Big-Pic.jpg">
@@ -26,7 +28,11 @@
 		
 		<h2 class="Winston-title">Winston's Abilities</h2>
 
-		<div id="Winston-Abilities">
+<!-- Button to Show Abilities -->
+<button id="showButton" onclick="toggleAbilities()">Show Winston’s Abilities</button>
+
+<!-- Hidden abilities section -->
+<div id="Winston-Abilities" style="display: none;">
 		
 			<div>
 				<h2>Tesla Cannon</h2>
@@ -78,11 +84,15 @@
 				<li>Continues working to restore Overwatch’s mission.</li>
 		</ul>
 
-
-
-</body>
+<script src="WinstonHeroinfo.js"></script>
+		
+</div>
+	
 <footer>
 
 </footer>
+	
+</body>
+
 
 </html>
