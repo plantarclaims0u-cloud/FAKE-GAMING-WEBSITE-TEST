@@ -10,6 +10,8 @@
 	<title>Reinhardt's Hero Guide!</title>
 </head>
 <body>
+	<div id="main-content">
+	
 <h1>Reinhardt</h1>
 		<div id="main-image">
 			<img src="https://plantarclaims0u-cloud.github.io/FAKE-GAMING-WEBSITE-TEST/Reinhardt-Big-Pic.jpg">
@@ -26,7 +28,11 @@
 		
 		<h2 class="Reinhardt-title">Reinhardt's Abilities</h2>
 
-		<div id="Reinhardt-Abilities">
+<!-- Button to Show Abilities -->
+<button id="showButton" onclick="toggleAbilities()">Show Reinhardt’s Abilities</button>
+
+<!-- Hidden abilities section -->
+<div id="Reinhardt-Abilities" style="display: none;">
 		
 			<div>
 				<h2>Rocket Hammer</h2>
@@ -94,12 +100,15 @@
 		<p>Return of Overwatch (Overwatch 2 Era):</p>
 		<p>When Winston initiated the recall to reform Overwatch, Reinhardt answered immediately, reaffirming his lifelong commitment to defending others.</p>
 
-
-
-</body>
+<script src="ReinhardtHeroinfo.js"></script>
+		
+</div>
+		
 <footer>
 
 </footer>
+
+</body>
 
 </html>
 
