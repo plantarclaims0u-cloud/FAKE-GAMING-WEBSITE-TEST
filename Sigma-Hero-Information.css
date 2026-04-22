@@ -15,8 +15,17 @@ h1 {
 }
 body {
 
-	 background-color:#6faf8b;
+	background-color:#6faf8b;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+
 }
+
+#main-content {
+	max-width: 1200px;
+}
+
 
 #main-image img {
 	
@@ -145,6 +154,14 @@ ul {
 	top: 50%;
 	visibility: visible;
 }
+
+#showButton {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
 
 @media only screen and (max-width: 768px) {
 	#Sigma-Abilities {
