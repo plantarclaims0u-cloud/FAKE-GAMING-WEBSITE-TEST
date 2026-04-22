@@ -10,6 +10,8 @@
 	<title>Sombra's Hero Guide!</title>
 </head>
 <body>
+	<div id="main-content">
+		
 <h1>Sombra</h1>
 		<div id="main-image">
 			<img src="https://plantarclaims0u-cloud.github.io/FAKE-GAMING-WEBSITE-TEST/Sombra-Big-Pic.webp">
@@ -26,7 +28,11 @@
 		
 		<h2 class="Sombra-title">Sombra Abilities</h2>
 
-		<div id="Sombra-Abilities">
+<!-- Button to Show Abilities -->
+<button id="showButton" onclick="toggleAbilities()">Show Sombra’s Abilities</button>
+
+<!-- Hidden abilities section -->
+<div id="Sombra-Abilities" style="display: none;">
 		
 			<div>
 				<h2>Machine Pistol</h2>
@@ -93,10 +99,15 @@
 				<li>Known for destabilizing both organizations and individuals through digital warfare.</li>
 		</ul>
 
-
-</body>
+<script src="SombraHeroinfo.js"></script>
+		
+</div>	
+	
 <footer>
 
 </footer>
+	
+</body>
+
 
 </html>
