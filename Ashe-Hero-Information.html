@@ -10,6 +10,8 @@
 	<title>Ashe's Hero Guide!</title>
 </head>
 <body>
+	<div id="main-content">
+		
 <h1>Ashe</h1>
 		<div id="main-image">
 			<img src="https://plantarclaims0u-cloud.github.io/FAKE-GAMING-WEBSITE-TEST/Ashe-Big-Pic.png">
@@ -26,7 +28,11 @@
 		
 		<h2 class="Ashe-title">Ashe Abilities</h2>
 
-		<div id="Ashe-Abilities">
+<!-- Button to Show Abilities -->
+<button id="showButton" onclick="toggleAbilities()">Show Ashe’s Abilities</button>
+
+<!-- Hidden abilities section -->
+<div id="Ashe-Abilities" style="display: none;">
 		
 			<div>
 				<h2>The Viper</h2>
@@ -82,10 +88,15 @@
 		</ul>
 	<hr>
 
-
-</body>
+<script src="AsheHeroinfo.js"></script>
+		
+</div>
+		
 <footer>
 
 </footer>
+		
+</body>
+
 
 </html>
