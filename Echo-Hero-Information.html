@@ -10,6 +10,8 @@
 	<title>Echo's Hero Guide!</title>
 </head>
 <body>
+	<div id="main-content">
+		
 <h1>Echo</h1>
 		<div id="main-image">
 			<img src="https://plantarclaims0u-cloud.github.io/FAKE-GAMING-WEBSITE-TEST/Echo-Big-Pic.webp">
@@ -26,7 +28,11 @@
 		
 		<h2 class="Echo-title">Echo Abilities</h2>
 
-		<div id="Echo-Abilities">
+<!-- Button to Show Abilities -->
+<button id="showButton" onclick="toggleAbilities()">Show Echo’s Abilities</button>
+
+<!-- Hidden abilities section -->
+<div id="Echo-Abilities" style="display: none;">
 		
 			<div>
 				<h2>Tri-Shot</h2>
@@ -86,10 +92,15 @@
 			<li>Represents one of the most advanced examples of AI development in the Overwatch universe.</li>
 		</ul>
 
-
-</body>
+<script src="EchoHeroinfo.js"></script>
+		
+</div>
+		
 <footer>
 
 </footer>
+		
+</body>
+
 
 </html>
