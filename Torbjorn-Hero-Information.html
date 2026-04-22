@@ -10,6 +10,8 @@
 	<title>Torbjorn's Hero Guide!</title>
 </head>
 <body>
+	<div id="main-content">
+
 <h1>Torbjorn</h1>
 		<div id="main-image">
 			<img src="https://plantarclaims0u-cloud.github.io/FAKE-GAMING-WEBSITE-TEST/Torbjorn-Big-Pic.jpg">
@@ -26,7 +28,11 @@
 		
 		<h2 class="Torbjorn-title">Torbjorn Abilities</h2>
 
-		<div id="Torbjorn-Abilities">
+<!-- Button to Show Abilities -->
+<button id="showButton" onclick="toggleAbilities()">Show Torbjorn’s Abilities</button>
+
+<!-- Hidden abilities section -->
+<div id="Torbjorn-Abilities" style="display: none;">
 		
 			<div>
 				<h2>Rivet Gun</h2>
@@ -86,11 +92,16 @@
 			<li>In present time, he continues monitoring and controlling dangerous technology. He works alongside allies like Bastion and remains cautious but more open-minded about omnics.</li>
 		</ul>
 
-
-</body>
+<script src="TorbjornHeroinfo.js"></script>
+	
+</div>
+		
 <footer>
 
 </footer>
+		
+</body>
+
 
 </html>
 
