@@ -10,6 +10,8 @@
 	<title>Widowmaker's Hero Guide!</title>
 </head>
 <body>
+	<div id="main-content">
+
 <h1>Widowmaker</h1>
 		<div id="main-image">
 			<img src="https://plantarclaims0u-cloud.github.io/FAKE-GAMING-WEBSITE-TEST/Widow-Big-Pic.png">
@@ -26,7 +28,11 @@
 		
 		<h2 class="Widowmaker-title">Widowmaker Abilities</h2>
 
-		<div id="Widowmaker-Abilities">
+<!-- Button to Show Abilities -->
+<button id="showButton" onclick="toggleAbilities()">Show Widowmaker’s Abilities</button>
+
+<!-- Hidden abilities section -->
+<div id="Widowmaker-Abilities" style="display: none;">
 		
 			<div>
 				<h2>Widow’s Kiss:</h2>
@@ -80,11 +86,16 @@
 				<li>Works as a global-level threat due to her skill, precision, and strategic influence.</li>
 				<li>Occasionally shows flashes of her former self, hinting at the struggle between humanity and conditioning.</li>
 		</ul>
-
-
-</body>
+		
+<script src="WidowmakerHeroinfo.js"></script>
+		
+</div>
+	
 <footer>
 
 </footer>
+	
+</body>
+
 
 </html>
