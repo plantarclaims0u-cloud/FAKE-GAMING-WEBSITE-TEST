@@ -10,6 +10,8 @@
 	<title>Mei's Hero Guide!</title>
 </head>
 <body>
+	<div id="main-content">
+		
 <h1>Mei</h1>
 		<div id="main-image">
 			<img src="https://plantarclaims0u-cloud.github.io/FAKE-GAMING-WEBSITE-TEST/Mei-Big-Pic.jpg">
@@ -26,7 +28,11 @@
 		
 		<h2 class="Mei-title">Mei Abilities</h2>
 
-		<div id="Mei-Abilities">
+<!-- Button to Show Abilities -->
+<button id="showButton" onclick="toggleAbilities()">Show Mei’s Abilities</button>
+
+<!-- Hidden abilities section -->
+<div id="Mei-Abilities" style="display: none;">
 		
 			<div>
 				<h2>Endothermic Blaster</h2>
@@ -82,10 +88,15 @@
 
 		</ul>
 
-
-</body>
+<script src="MeiHeroinfo.js"></script>
+	
+</div>
+	
 <footer>
 
 </footer>
+	
+</body>
+
 
 </html>
