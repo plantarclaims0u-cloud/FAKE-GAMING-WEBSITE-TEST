@@ -10,6 +10,8 @@
 	<title>Genji's Hero Guide!</title>
 </head>
 <body>
+	<div id="main-content">
+
 <h1>Genji</h1>
 		<div id="main-image">
 			<img src="https://plantarclaims0u-cloud.github.io/FAKE-GAMING-WEBSITE-TEST/Genji-Big-Pic.jpg">
@@ -26,7 +28,11 @@
 		
 		<h2 class="Genji-title">Genji Abilities</h2>
 
-		<div id="Genji-Abilities">
+<!-- Button to Show Abilities -->
+<button id="showButton" onclick="toggleAbilities()">Show Genji’s Abilities</button>
+
+<!-- Hidden abilities section -->
+<div id="Genji-Abilities" style="display: none;">
 		
 			<div>
 				<h2>Shuriken</h2>
@@ -88,11 +94,16 @@
 			<li>When Winston issues the recall: Genji answers the call, rejoins the fight to protect the world, and now acts with clarity and purpose.</li>
 		</ul>
 
-
-</body>
+<script src="GenjiHeroinfo.js"></script>
+	
+</div>
+		
 <footer>
 
 </footer>
+		
+</body>
+
 
 </html>
 
