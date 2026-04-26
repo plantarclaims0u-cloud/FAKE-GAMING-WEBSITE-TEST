@@ -12,3 +12,4 @@
       abilities.style.display = "none";
       button.innerHTML = "Show Reinhardt’s Abilities";
     }
+  }
