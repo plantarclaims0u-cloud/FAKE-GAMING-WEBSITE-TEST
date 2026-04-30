@@ -82,6 +82,12 @@ h2 {
 	border-radius: 8px;
 }
 
+#tank-logo img {
+	width: 100%;
+	height: auto;
+	border-radius: 8px;
+}
+
 /* GRID SYSTEM (IMPROVED VISUAL STYLE) */
 #grid-1,
 #grid-2,
