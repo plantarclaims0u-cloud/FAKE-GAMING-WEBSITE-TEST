@@ -99,6 +99,22 @@ h3 {
 	height: auto;
 }
 
+#dps-logo img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+	height: auto;
+}
+
+#healers-logo img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+	height: auto;
+}
+
 /* GRID SYSTEM (IMPROVED VISUAL STYLE) */
 #grid-1,
 #grid-2,
