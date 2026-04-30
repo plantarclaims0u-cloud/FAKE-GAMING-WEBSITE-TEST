@@ -37,6 +37,7 @@ h2 {
 h3 {
 	font-size: 26px;
 	font-weight: bold;
+	justify-content: center;
 	color: #00ffcc;
 	margin: 20px 0 10px;
 }
