@@ -33,6 +33,14 @@ h2 {
 	margin: 20px 0 10px;
 }
 
+
+h3 {
+	font-size: 26px;
+	font-weight: bold;
+	color: #00ffcc;
+	margin: 20px 0 10px;
+}
+
 /* MAIN WRAPPER */
 #content-wrapper {
 	display: block;
