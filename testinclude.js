@@ -1,4 +1,4 @@
 
 window.onload = function() {
- document.write("Hello World!");
+ document.getElementById("jsmenu").innerHTML = "menu1 menu2 menu3 menu4";
 };
