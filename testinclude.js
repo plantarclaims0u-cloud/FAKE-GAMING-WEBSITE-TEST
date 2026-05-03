@@ -1,1 +1,4 @@
-alert("this is the test include");
+
+window.onload = function() {
+  alert("Page and all resources are fully loaded!");
+};
