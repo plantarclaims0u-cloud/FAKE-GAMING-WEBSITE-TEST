@@ -1,4 +1,4 @@
 
 window.onload = function() {
-  alert("Page and all resources are fully loaded!");
+  alert("Here is the included JavaSpript alert!");
 };
